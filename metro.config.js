@@ -2,3 +2,12 @@
 const { getDefaultConfig } = require('expo/metro-config');
 
 module.exports = getDefaultConfig(__dirname);
+// module.exports = {
+//     transformer: {
+//       getTransformOptions: async () => ({
+//         hot: false,
+//         liveReload: false,
+//       }),
+//     },
+//   };
+  
